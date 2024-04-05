@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Assistant-ai-1a
  * Description: Un widget personnalisé pour intégrer mon application Flask.
- * Version: 1.0
+ * Version: 1.0 - IA base 050424
  * Author: johannr.fr
  */
 
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 submitButton.disabled = true; // Désactive le bouton
                 submitButton.classList.remove(
                     'active'
-                    ); // S'assure que la classe 'active' est retirée pour revenir à la couleur bleue
+                ); // S'assure que la classe 'active' est retirée pour revenir à la couleur bleue
                 if (mode === 'voice') {
                     speak(data.response);
                 }
